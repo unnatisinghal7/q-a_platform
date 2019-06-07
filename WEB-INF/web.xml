@@ -1,0 +1,1181 @@
+<web-app>
+<!--IndexPAGE-->
+<servlet>
+    <servlet-name>home</servlet-name>
+    <servlet-class>home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>home</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>Registration</servlet-name>
+    <servlet-class>Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registration</servlet-name>
+    <url-pattern>/Registration</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>CheckLogin</servlet-name>
+    <servlet-class>CheckLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckLogin</servlet-name>
+    <url-pattern>/CheckLogin</url-pattern>
+  </servlet-mapping>
+
+	<servlet>
+    <servlet-name>WelcomeUser</servlet-name>
+    <servlet-class>WelcomeUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WelcomeUser</servlet-name>
+    <url-pattern>/WelcomeUser</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>AskQuestion</servlet-name>
+    <servlet-class>AskQuestion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AskQuestion</servlet-name>
+    <url-pattern>/AskQuestion</url-pattern>
+  </servlet-mapping>
+
+	<servlet>
+    <servlet-name>AnswersPage</servlet-name>
+    <servlet-class>AnswersPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AnswersPage</servlet-name>
+    <url-pattern>/AnswersPage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PostAnswer</servlet-name>
+    <servlet-class>PostAnswer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostAnswer</servlet-name>
+    <url-pattern>/PostAnswer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>QuestionUpvotes</servlet-name>
+    <servlet-class>QuestionUpvotes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QuestionUpvotes</servlet-name>
+    <url-pattern>/QuestionUpvotes</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LogOut</servlet-name>
+    <servlet-class>LogOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOut</servlet-name>
+    <url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UserProfile</servlet-name>
+    <servlet-class>UserProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserProfile</servlet-name>
+    <url-pattern>/UserProfile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>QuestionDownvotes</servlet-name>
+    <servlet-class>QuestionDownvotes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QuestionDownvotes</servlet-name>
+    <url-pattern>/QuestionDownvotes</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+        <servlet-name>AnswerVotes</servlet-name>
+        <servlet-class>AnswerVotes</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AnswerVotes</servlet-name>
+        <url-pattern>/AnswerVotes</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+	  <servlet>
+    <servlet-name>DeleteAnswer</servlet-name>
+    <servlet-class>DeleteAnswer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteAnswer</servlet-name>
+    <url-pattern>/DeleteAnswer</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>SearchOption</servlet-name>
+    <servlet-class>SearchOption</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchOption</servlet-name>
+    <url-pattern>/SearchOption</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>SeatMatrix</servlet-name>
+    <servlet-class>SeatMatrix</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SeatMatrix</servlet-name>
+    <url-pattern>/SeatMatrix</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>addcinema</servlet-name>
+    <servlet-class>admin.addcinema</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addcinema</servlet-name>
+    <url-pattern>/admin.addcinema</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+    <servlet-name>addmovie</servlet-name>
+    <servlet-class>admin.addmovie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addmovie</servlet-name>
+    <url-pattern>/admin.addmovie</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>addprice</servlet-name>
+    <servlet-class>admin.addprice</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addprice</servlet-name>
+    <url-pattern>/admin.addprice</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>addshow</servlet-name>
+    <servlet-class>admin.addshow</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addshow</servlet-name>
+    <url-pattern>/admin.addshow</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>cinema</servlet-name>
+    <servlet-class>admin.cinema</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cinema</servlet-name>
+    <url-pattern>/admin.cinema</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ser</servlet-name>
+    <servlet-class>ser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ser</servlet-name>
+    <url-pattern>/ser</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+    <servlet-name>adminlog</servlet-name>
+    <servlet-class>admin.adminlog</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminlog</servlet-name>
+    <url-pattern>/admin.adminlog</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+    <servlet-name>movie</servlet-name>
+    <servlet-class>admin.movie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>movie</servlet-name>
+    <url-pattern>/admin.movie</url-pattern>
+	</servlet-mapping>
+    
+ <servlet>
+    <servlet-name>price</servlet-name>
+    <servlet-class>admin.price</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>price</servlet-name>
+    <url-pattern>/admin.price</url-pattern>
+	</servlet-mapping>
+
+ <servlet>
+    <servlet-name>showtime</servlet-name>
+    <servlet-class>admin.showtime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>showtime</servlet-name>
+    <url-pattern>/admin.showtime</url-pattern>
+	</servlet-mapping>
+
+ <servlet>
+    <servlet-name>view</servlet-name>
+    <servlet-class>admin.view</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>view</servlet-name>
+    <url-pattern>/admin.view</url-pattern>
+	</servlet-mapping>
+ <servlet>
+    <servlet-name>AddCinemaServlet</servlet-name>
+    <servlet-class>admin.AddCinemaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCinemaServlet</servlet-name>
+    <url-pattern>/admin.AddCinemaServlet</url-pattern>
+	</servlet-mapping>
+    
+<servlet>
+    <servlet-name>AddInfo</servlet-name>
+    <servlet-class>admin.AddInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddInfo</servlet-name>
+    <url-pattern>/admin.AddInfo</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddShowtime</servlet-name>
+    <servlet-class>admin.AddShowtime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddShowtime</servlet-name>
+    <url-pattern>/admin.AddShowtime</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddRate</servlet-name>
+    <servlet-class>admin.AddRate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddRate</servlet-name>
+    <url-pattern>/admin.AddRate</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>SeatPrice</servlet-name>
+    <servlet-class>SeatPrice</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SeatPrice</servlet-name>
+    <url-pattern>/SeatPrice</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>user</servlet-name>
+    <servlet-class>user</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user</servlet-name>
+    <url-pattern>/user</url-pattern>
+	</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>DeleteCinema</servlet-name>
+    <servlet-class>admin.DeleteCinema</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteCinema</servlet-name>
+    <url-pattern>/admin.DeleteCinema</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+    <servlet-name>index</servlet-name>
+    <servlet-class>index</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/index</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    <servlet-name>DeleteMovie</servlet-name>
+    <servlet-class>admin.DeleteMovie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteMovie</servlet-name>
+    <url-pattern>/admin.DeleteMovie</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    <servlet-name>AboutMovie</servlet-name>
+    <servlet-class>AboutMovie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AboutMovie</servlet-name>
+    <url-pattern>/AboutMovie</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    <servlet-name>buyout</servlet-name>
+    <servlet-class>buyout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>buyout</servlet-name>
+    <url-pattern>/buyout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    <servlet-name>BuyerDetails</servlet-name>
+    <servlet-class>BuyerDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BuyerDetails</servlet-name>
+    <url-pattern>/BuyerDetails</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    <servlet-name>CheckUser</servlet-name>
+    <servlet-class>CheckUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckUser</servlet-name>
+    <url-pattern>/CheckUser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+    <servlet-name>DeleteShowtime</servlet-name>
+    <servlet-class>admin.DeleteShowtime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteShowtime</servlet-name>
+    <url-pattern>/admin.DeleteShowtime</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+    <servlet-name>ticketdetails</servlet-name>
+    <servlet-class>ticketdetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ticketdetails</servlet-name>
+    <url-pattern>/ticketdetails</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    <servlet-name>checkadmin</servlet-name>
+    <servlet-class>admin.checkadmin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkadmin</servlet-name>
+    <url-pattern>/admin.checkadmin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    <servlet-name>movies</servlet-name>
+    <servlet-class>movies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>movies</servlet-name>
+    <url-pattern>/movies</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    <servlet-name>DeletePrice</servlet-name>
+    <servlet-class>admin.DeletePrice</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeletePrice</servlet-name>
+    <url-pattern>/admin.DeletePrice</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    <servlet-name>pl</servlet-name>
+    <servlet-class>pl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pl</servlet-name>
+    <url-pattern>/pl</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    <servlet-name>project</servlet-name>
+    <servlet-class>project</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>project</servlet-name>
+    <url-pattern>/project</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    <servlet-name>Serv41</servlet-name>
+    <servlet-class>Serv41</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv41</servlet-name>
+    <url-pattern>/Serv41</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    <servlet-name>Serv42</servlet-name>
+    <servlet-class>Serv42</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv42</servlet-name>
+    <url-pattern>/Serv42</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    <servlet-name>Serv43</servlet-name>
+    <servlet-class>Serv43</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv43</servlet-name>
+    <url-pattern>/Serv43</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+    <servlet-name>Serv44</servlet-name>
+    <servlet-class>Serv44</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv44</servlet-name>
+    <url-pattern>/Serv44</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+    <servlet-name>Serv45</servlet-name>
+    <servlet-class>Serv45</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv45</servlet-name>
+    <url-pattern>/Serv45</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Serv46</servlet-name>
+    <servlet-class>Serv46</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv46</servlet-name>
+    <url-pattern>/Serv46</url-pattern>
+	</servlet-mapping>
+	
+					<servlet>
+    <servlet-name>Serv47</servlet-name>
+    <servlet-class>Serv47</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv47</servlet-name>
+    <url-pattern>/Serv47</url-pattern>
+	</servlet-mapping>
+	
+						<servlet>
+    <servlet-name>Serv48</servlet-name>
+    <servlet-class>Serv48</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv48</servlet-name>
+    <url-pattern>/Serv48</url-pattern>
+	</servlet-mapping>
+	
+							<servlet>
+    <servlet-name>Serv49</servlet-name>
+    <servlet-class>Serv49</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv49</servlet-name>
+    <url-pattern>/Serv49</url-pattern>
+	</servlet-mapping>
+	
+								<servlet>
+    <servlet-name>Serv50</servlet-name>
+    <servlet-class>Serv50</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv50</servlet-name>
+    <url-pattern>/Serv50</url-pattern>
+	</servlet-mapping>
+	
+									<servlet>
+    <servlet-name>Data</servlet-name>
+    <servlet-class>Data</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Data</servlet-name>
+    <url-pattern>/Data</url-pattern>
+	</servlet-mapping>
+	
+										<servlet>
+    <servlet-name>Home2</servlet-name>
+    <servlet-class>Home2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home2</servlet-name>
+    <url-pattern>/Home2</url-pattern>
+	</servlet-mapping>
+	
+											<servlet>
+    <servlet-name>About3</servlet-name>
+    <servlet-class>About3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>About3</servlet-name>
+    <url-pattern>/About3</url-pattern>
+	</servlet-mapping>
+	
+												<servlet>
+    <servlet-name>Service</servlet-name>
+    <servlet-class>Service</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Service</servlet-name>
+    <url-pattern>/Service</url-pattern>
+	</servlet-mapping>
+
+												<servlet>
+    <servlet-name>Contact3</servlet-name>
+    <servlet-class>Contact3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Contact3</servlet-name>
+    <url-pattern>/Contact3</url-pattern>
+	</servlet-mapping>
+					
+					<servlet>
+    <servlet-name>Profile2</servlet-name>
+    <servlet-class>Profile2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Profile2</servlet-name>
+    <url-pattern>/Profile2</url-pattern>
+	</servlet-mapping>
+	
+						
+					<servlet>
+    <servlet-name>Edit1</servlet-name>
+    <servlet-class>Edit1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit1</servlet-name>
+    <url-pattern>/Edit1</url-pattern>
+	</servlet-mapping>
+	
+	
+					<servlet>
+    <servlet-name>Welcome</servlet-name>
+    <servlet-class>Welcome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Welcome</servlet-name>
+    <url-pattern>/Welcome</url-pattern>
+	</servlet-mapping>
+	
+						<servlet>
+    <servlet-name>Welcome1</servlet-name>
+    <servlet-class>Welcome1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Welcome1</servlet-name>
+    <url-pattern>/Welcome1</url-pattern>
+	</servlet-mapping>
+	
+							<servlet>
+    <servlet-name>Welcome2</servlet-name>
+    <servlet-class>Welcome2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Welcome2</servlet-name>
+    <url-pattern>/Welcome2</url-pattern>
+	</servlet-mapping>
+							
+								<servlet>
+    <servlet-name>Home1</servlet-name>
+    <servlet-class>Home1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home1</servlet-name>
+    <url-pattern>/Home1</url-pattern>
+	</servlet-mapping>
+	
+									<servlet>
+    <servlet-name>About2</servlet-name>
+    <servlet-class>About2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>About2</servlet-name>
+    <url-pattern>/About2</url-pattern>
+	</servlet-mapping>
+	
+										<servlet>
+    <servlet-name>Contact2</servlet-name>
+    <servlet-class>Contact2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Contact2</servlet-name>
+    <url-pattern>/Contact2</url-pattern>
+	</servlet-mapping>
+	
+											<servlet>
+    <servlet-name>Profile</servlet-name>
+    <servlet-class>Profile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Profile</servlet-name>
+    <url-pattern>/Profile</url-pattern>
+	</servlet-mapping>
+	
+												<servlet>
+    <servlet-name>Service1</servlet-name>
+    <servlet-class>Service1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Service1</servlet-name>
+    <url-pattern>/Service1</url-pattern>
+	</servlet-mapping>
+	
+													<servlet>
+    <servlet-name>Anesthesiology2</servlet-name>
+    <servlet-class>Anesthesiology2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Anesthesiology2</servlet-name>
+    <url-pattern>/Anesthesiology2</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+    <servlet-name>Back2</servlet-name>
+    <servlet-class>Back2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Back2</servlet-name>
+    <url-pattern>/Back2</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+    <servlet-name>Cardiology2</servlet-name>
+    <servlet-class>Cardiology2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Cardiology2</servlet-name>
+    <url-pattern>/Cardiology2</url-pattern>
+	</servlet-mapping>
+
+			<servlet>
+    <servlet-name>Ear2</servlet-name>
+    <servlet-class>Ear2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ear2</servlet-name>
+    <url-pattern>/Ear2</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Diabetes2</servlet-name>
+    <servlet-class>Diabetes2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Diabetes2</servlet-name>
+    <url-pattern>/Diabetes2</url-pattern>
+	</servlet-mapping>
+
+			<servlet>
+    <servlet-name>General2</servlet-name>
+    <servlet-class>General2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>General2</servlet-name>
+    <url-pattern>/General2</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Gyne2</servlet-name>
+    <servlet-class>Gyne2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Gyne2</servlet-name>
+    <url-pattern>/Gyne2</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Neurosurgery2</servlet-name>
+    <servlet-class>Neurosurgery2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Neurosurgery2</servlet-name>
+    <url-pattern>/Neurosurgery2</url-pattern>
+	</servlet-mapping>
+
+			<servlet>
+    <servlet-name>Pediatric2</servlet-name>
+    <servlet-class>Pediatric2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Pediatric2</servlet-name>
+    <url-pattern>/Pediatric2</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Add1</servlet-name>
+    <servlet-class>Add1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add1</servlet-name>
+    <url-pattern>/Add1</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Add2</servlet-name>
+    <servlet-class>Add2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add2</servlet-name>
+    <url-pattern>/Add2</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Add3</servlet-name>
+    <servlet-class>Add3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add3</servlet-name>
+    <url-pattern>/Add3</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Add4</servlet-name>
+    <servlet-class>Add4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add4</servlet-name>
+    <url-pattern>/Add4</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Add5</servlet-name>
+    <servlet-class>Add5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add5</servlet-name>
+    <url-pattern>/Add5</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Add6</servlet-name>
+    <servlet-class>Add6</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add6</servlet-name>
+    <url-pattern>/Add6</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Add7</servlet-name>
+    <servlet-class>Add7</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add7</servlet-name>
+    <url-pattern>/Add7</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Add8</servlet-name>
+    <servlet-class>Add8</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add8</servlet-name>
+    <url-pattern>/Add8</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Add9</servlet-name>
+    <servlet-class>Add9</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add9</servlet-name>
+    <url-pattern>/Add9</url-pattern>
+	</servlet-mapping>
+	
+					<servlet>
+    <servlet-name>Rem1</servlet-name>
+    <servlet-class>Rem1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rem1</servlet-name>
+    <url-pattern>/Rem1</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Rem2</servlet-name>
+    <servlet-class>Rem2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rem2</servlet-name>
+    <url-pattern>/Rem2</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Rem3</servlet-name>
+    <servlet-class>Rem3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rem3</servlet-name>
+    <url-pattern>/Rem3</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Rem4</servlet-name>
+    <servlet-class>Rem4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rem4</servlet-name>
+    <url-pattern>/Rem4</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Rem5</servlet-name>
+    <servlet-class>Rem5</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rem5</servlet-name>
+    <url-pattern>/Rem5</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Rem6</servlet-name>
+    <servlet-class>Rem6</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rem6</servlet-name>
+    <url-pattern>/Rem6</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Rem7</servlet-name>
+    <servlet-class>Rem7</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rem7</servlet-name>
+    <url-pattern>/Rem7</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Rem8</servlet-name>
+    <servlet-class>Rem8</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rem8</servlet-name>
+    <url-pattern>/Rem8</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Rem9</servlet-name>
+    <servlet-class>Rem9</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Rem9</servlet-name>
+    <url-pattern>/Rem9</url-pattern>
+	</servlet-mapping>
+	
+						<servlet>
+    <servlet-name>Anesthesiology</servlet-name>
+    <servlet-class>Anesthesiology</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Anesthesiology</servlet-name>
+    <url-pattern>/Anesthesiology</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Back</servlet-name>
+    <servlet-class>Back</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Back</servlet-name>
+    <url-pattern>/Back</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Cardiology</servlet-name>
+    <servlet-class>Cardiology</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Cardiology</servlet-name>
+    <url-pattern>/Cardiology</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Diabetes</servlet-name>
+    <servlet-class>Diabetes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Diabetes</servlet-name>
+    <url-pattern>/Diabetes</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Ear</servlet-name>
+    <servlet-class>Ear</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ear</servlet-name>
+    <url-pattern>/Ear</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Neurosurgery</servlet-name>
+    <servlet-class>Neurosurgery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Neurosurgery</servlet-name>
+    <url-pattern>/Neurosurgery</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>General</servlet-name>
+    <servlet-class>General</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>General</servlet-name>
+    <url-pattern>/General</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Pediatric</servlet-name>
+    <servlet-class>Pediatric</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Pediatric</servlet-name>
+    <url-pattern>/Pediatric</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Gyne</servlet-name>
+    <servlet-class>Gyne</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Gyne</servlet-name>
+    <url-pattern>/Gyne</url-pattern>
+	</servlet-mapping>
+		
+						<servlet>
+    <servlet-name>Patient</servlet-name>
+    <servlet-class>Patient</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Patient</servlet-name>
+    <url-pattern>/Patient</url-pattern>
+	</servlet-mapping>
+		
+		
+								<servlet>
+    <servlet-name>Error3</servlet-name>
+    <servlet-class>Error3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Error3</servlet-name>
+    <url-pattern>/Error3</url-pattern>
+	</servlet-mapping>
+		
+										<servlet>
+    <servlet-name>Data2</servlet-name>
+    <servlet-class>Data2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Data2</servlet-name>
+    <url-pattern>/Data2</url-pattern>
+	</servlet-mapping>
+	
+											<servlet>
+    <servlet-name>Edit2</servlet-name>
+    <servlet-class>Edit2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit2</servlet-name>
+    <url-pattern>/Edit2</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+    <servlet-name>Profile3</servlet-name>
+    <servlet-class>Profile3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Profile3</servlet-name>
+    <url-pattern>/Profile3</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+    <servlet-name>Invun2</servlet-name>
+    <servlet-class>Invun2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Invun2</servlet-name>
+    <url-pattern>/Invun2</url-pattern>
+	</servlet-mapping>
+	
+					<servlet>
+    <servlet-name>Edit</servlet-name>
+    <servlet-class>Edit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit</servlet-name>
+    <url-pattern>/Edit</url-pattern>
+	</servlet-mapping>
+	
+						<servlet>
+    <servlet-name>Error2</servlet-name>
+    <servlet-class>Error2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Error2</servlet-name>
+    <url-pattern>/Error2</url-pattern>
+	</servlet-mapping>
+	
+						<servlet>
+    <servlet-name>Data1</servlet-name>
+    <servlet-class>Data1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Data1</servlet-name>
+    <url-pattern>/Data1</url-pattern>
+	</servlet-mapping>
+	
+						<servlet>
+    <servlet-name>Invun</servlet-name>
+    <servlet-class>Invun</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Invun</servlet-name>
+    <url-pattern>/Invun</url-pattern>
+	</servlet-mapping>
+	
+						<servlet>
+    <servlet-name>Error1</servlet-name>
+    <servlet-class>Error1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Error1</servlet-name>
+    <url-pattern>/Error1</url-pattern>
+	</servlet-mapping>
+	
+							<servlet>
+    <servlet-name>AddDoctor</servlet-name>
+    <servlet-class>AddDoctor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddDoctor</servlet-name>
+    <url-pattern>/AddDoctor</url-pattern>
+	</servlet-mapping>
+	
+								<servlet>
+    <servlet-name>Appointment1</servlet-name>
+    <servlet-class>Appointment1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Appointment1</servlet-name>
+    <url-pattern>/Appointment1</url-pattern>
+	</servlet-mapping>
+	
+									<servlet>
+    <servlet-name>Serv14</servlet-name>
+    <servlet-class>Serv14</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv14</servlet-name>
+    <url-pattern>/Serv14</url-pattern>
+	</servlet-mapping>
+	
+									<servlet>
+    <servlet-name>Serv15</servlet-name>
+    <servlet-class>Serv15</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv15</servlet-name>
+    <url-pattern>/Serv15</url-pattern>
+	</servlet-mapping>
+	
+										<servlet>
+    <servlet-name>Invun1</servlet-name>
+    <servlet-class>Invun1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Invun1</servlet-name>
+    <url-pattern>/Invun1</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+    <servlet-name>Records1</servlet-name>
+    <servlet-class>Records1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Records1</servlet-name>
+    <url-pattern>/Records1</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+    <servlet-name>Appointment</servlet-name>
+    <servlet-class>Appointment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Appointment</servlet-name>
+    <url-pattern>/Appointment</url-pattern>
+	</servlet-mapping>
+
+			<servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+			<servlet>
+    <servlet-name>Serv11</servlet-name>
+    <servlet-class>Serv11</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv11</servlet-name>
+    <url-pattern>/Serv11</url-pattern>
+	</servlet-mapping>
+	
+	
+				<servlet>
+    <servlet-name>Serv51</servlet-name>
+    <servlet-class>Serv51</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv51</servlet-name>
+    <url-pattern>/Serv51</url-pattern>
+	</servlet-mapping>
+
+
+	<session-config><session-timeout> 30 </session-timeout></session-config>
+</web-app>

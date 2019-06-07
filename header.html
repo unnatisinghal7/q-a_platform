@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>welcome page</title>
+<style>
+header{
+    /*background: #33cccc;*/
+    text-align: center;
+    height: 100%;
+    max-height: 65px;
+    display: block;
+    border-top: 4px solid #F48024;
+    border-bottom: 1px solid #a9a9a9;
+    background-color: #fafafb;
+    transition: box-shadow cubic-bezier(.165, .84, .44, 1) .25s;
+    box-sizing: border-box;
+    margin-top: -9px;
+}
+._title{
+    display: inline-block;
+    /*margin-right: 50px;
+    margin-left: -50px;*/
+
+height: 30px;
+width: 150px;
+margin-top: -20px;
+margin-left: 0;
+
+}
+._title a{
+    text-decoration: none;
+    color: #000000;
+}
+._title a:hover{
+    position: relative;
+    top: 3px;
+    background-color: #eff0f1;
+}
+.searchbar{
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+}
+.searchbar input[type="text"]{
+    display: inline-block;
+    border-radius: 5px;
+    border: 0px ridge #cccccc;
+    width: 100%;
+    max-width: 320px;
+    height: 35px;
+    padding: 0px 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.searchbar input[type="button"]{
+    display: inline-block;
+    border-radius: 2px;
+    padding: 2px 7px;
+    border: 1px ridge #cccccc;
+    background: #ffffff;
+    height: 30px;
+}
+/*.searchbarbutton{
+    background: url(images/header/searchbarbutton.png) no-repeat #fafafa center left;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-height: 35px;
+    border: 0px ridge #cccccc;
+}*/
+header nav{
+    list-style: none;
+    display: inline-block;
+}
+.headeroptions>li{
+    display: inline-block;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    
+}
+.headeroptions>li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    color: #000000;
+}
+.headeroptions>li a:hover{
+    background: #eff0f1;
+    border: 0px;
+    border-bottom: 2px solid #F48024;
+}
+.profiledropdown ul{
+    display: none; 
+    position: absolute;
+    background: #eff0f1;
+    right: 150px
+}
+.profiledropdown ul li{
+    display: block;
+    left: 100%;
+    list-style: none;
+
+}
+.profiledropdown:hover ul{
+    display: block;
+}
+
+</style>
+</head>
+
+<body>
+<header>
+    <div class="_title"><a href="WelcomeUser"><h1>MyPage</h1></a></div>
+    <div class="searchbar">
+        <input type="text" name="s1" placeholder="Search or ask a question or article"/>
+        <a href="SearchOption"><input type="button" class="searchbarbutton" name="submit" value="Search!"></a>
+    </div>
+    <nav>
+        <ul class="headeroptions">
+            <li><a href="WelcomeUser">Home</a></li>
+            <li><a href="">Notifications</a></li>
+            <li class="profiledropdown"><a href="#"> Profile</a>
+                <ul>
+                    <li><a href="UserProfile">View profile</a></li>
+                    <li><a href="">Account settings</a></li>
+                    <li><a href="LogOut">Log out</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>

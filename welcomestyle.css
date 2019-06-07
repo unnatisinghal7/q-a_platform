@@ -1,0 +1,319 @@
+
+/*Styling for header*/
+header{
+    /*background: #33cccc;*/
+    text-align: center;
+    height: 100%;
+    max-height: 65px;
+    display: block;
+    border-top: 4px solid #F48024;
+    border-bottom: 1px solid #a9a9a9;
+    background-color: #fafafb;
+    transition: box-shadow cubic-bezier(.165, .84, .44, 1) .25s;
+    box-sizing: border-box;
+    margin-top: -9px;
+}
+._title{
+    display: inline-block;
+    /*margin-right: 50px;
+    margin-left: -50px;*/
+height: 30px;
+width: 150px;
+margin-top: -20px;
+margin-left: 0;
+
+}
+._title a{
+    text-decoration: none;
+    color: #000000;
+}
+._title a:hover{
+    position: relative;
+    top: 3px;
+    background-color: #eff0f1;
+}
+.searchbar{
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+}
+.searchbar input{
+    display: inline-block;
+    border-radius: 5px;
+    border: 0px ridge #cccccc;
+    width: 100%;
+    max-width: 350px;
+    height: 35px;
+    padding: 0px 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.searchbarbutton{
+    background: url(images/header/searchbarbutton.png) no-repeat #fafafa center left;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-height: 35px;
+    border: 0px ridge #cccccc;
+}
+header nav{
+    list-style: none;
+    display: inline-block;
+}
+.headeroptions>li{
+    display: inline-block;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.headeroptions>li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    color: #000000;
+}
+.headeroptions>li a:hover{
+    background: #eff0f1;
+    border: 0px;
+    border-bottom: 2px solid #F48024;
+}
+.profiledropdown ul{
+    display: none; 
+    position: absolute;
+    background: #eff0f1;
+    right: 150px
+}
+.profiledropdown ul li{
+    display: block;
+    left: 100%;
+    list-style: none;
+}
+.profiledropdown:hover ul{
+    display: block;
+}
+
+/*closing of styling of header*/
+
+
+/*styling for container class*/
+.container{
+    display: block;
+    margin: 10px 100px 10px 100px;
+}
+/*styling for left section*/
+.leftsec{
+    /*border-right: 1px #a9a9a9 ridge;*/
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+.profilephoto{
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 15px auto;
+}
+.profilephoto img{
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 150px;  
+}
+.profilephoto img:hover{
+    display: block;
+    cursor: pointer;
+    visibility: visible;
+}
+.profilephoto img:hover{
+    cursor: pointer;
+    visibility: visible;
+}
+.photooptions ul{
+    visibility: hidden;
+}
+.photooptions ul li{
+    display: block;
+}
+.photooptions:hover ul{
+    visibility: visible;
+    cursor: pointer;
+}
+/*closing of styling of left section*/
+/*styling for middle section*/
+.middlesec{
+    /*border-right: 1px #a9a9a9 ridge;*/
+    max-width: 600px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+.askquestion{
+    border-bottom: 2px inset #cccccc;
+    margin: 10px 0px 20px 0px;
+    padding: 20px 5px;
+}
+.askquestion:hover{
+    background: #f4f1f1;
+}
+.askquestion textarea{
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    max-height: 70px;
+    font-size: 16px;
+    font-weight: 500;
+    resize: none;
+    border-bottom: 2px inset gray;
+}
+.askquestion input[type="list"]{
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+}
+.askquestion input[type="submit"]{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: dodgerblue;
+    color: #ffffff;
+}
+
+.allquestions{
+    padding: 5px 5px 12px 5px;
+}
+.contentbox{
+    border-bottom: 2px ridge #cccccc;
+    padding: 10px 2px;
+}
+.contentbox:hover{
+    background: #f4f1f1;
+}
+.thequestion a{
+    font-family: Georgia,Times,"Times New Roman",serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000;
+    padding: 20px 5px 0px 5px;
+}
+.thequestion a:hover{
+    text-decoration: underline;
+}
+.relatedtopics{
+    display: block;
+}
+.relatedtopics ul{
+
+}
+.relatedtopics ul li{
+    list-style: none;
+    display: inline-block;
+    border-radius: 0px;
+}
+.relatedtopics ul li a{
+    padding: 1px 5px;
+    color: #39739d;
+    background-color: #E1ECF4;
+    border-color: transparent;
+    text-decoration: none;
+}
+.relatedtopics ul li:hover a{
+    color: #33658a;
+    background-color: #cee0ed;
+    border-color: rgba(0,0,0,0);
+}
+.started{
+    text-align: right;
+    padding: 0px 10px;
+    float: right;
+}
+.timetaken{
+    text-decoration: none;
+    color: #a9a9a9;
+}
+.timetaken:hover{
+    color: #07C;
+}
+
+.userprofile{
+    text-decoration: none;
+    color: #07C;
+}
+.userprofile:hover{
+    color: #1dd8fa;
+}
+
+.peopleactivity a{
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 500;
+    outline: 0;
+    padding: 3px 7px 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background: #f1f8fb;
+    color: #2b6dad;
+    border: 1px solid #bbcadc;
+
+}
+.peopleactivity a:hover{
+    color: darkblue;
+}
+.vav{
+    padding:0px 5px 0px 2px;
+    border-right: 2px inset #000000;
+    display: inline-block;
+}
+.peopleactivity span{
+    padding: 0px 2px 0px 5px;
+}
+
+/*closing of styling of middle section*/
+/*styling for right section*/
+.rightsec{
+    max-width: 180px;
+    width: 100%;
+    display: inline-block !important;
+    vertical-align: top;
+    height: 100%;
+}
+/*closing of styling of right section*/
+
+
+/*styling for footer*/
+footer{
+    border-top: 1px #a9a9a9 ridge;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 20px;
+}
+footer ul a{
+    text-decoration: none;
+    color: #999999;
+}
+footer ul a:hover{
+    color: #333333;
+}
+/*closing of styling of footer*/
+
+/*iframe{
+    border: none;
+}*/

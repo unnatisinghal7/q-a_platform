@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>Sign in</title>
+<style>
+/*CSS starts*/
+body{
+    /*background: linear-gradient(#ffffff, #cccccc);*/
+    background: #3399ff;
+}
+.container{
+    text-align: center;
+    background: #3399ff;
+    margin: 100px auto;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 300px;
+    padding-top: 20px;
+}
+.input-group{
+    margin: 10px auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    background-color: #288fe7;
+    /*color: #278ee6;*/
+}
+.input-group label{
+    position: absolute;
+    font-size: 16px;
+    /*color: #001e37;*/
+}
+.input-group input{
+    background-color: #288fe7;
+    border: #207cca;
+    padding-left: 90px !important;
+    font-size: 14px;
+    /*color: #564576;*/
+    border: 0px;
+    width: 100%;
+    max-width: 400px;
+    padding: 5px 0px;
+}
+
+.input-group:hover{
+    background-color: #42a4f9;
+}
+.input-group input:hover{
+    background-color: #42a4f9;
+}
+
+.input-group:active{
+    background-color: #42a4f9;
+}
+.input-group input:active{
+    background-color: #42a4f9;
+}
+.submit-form{
+    margin: 10px auto;
+}
+.submit-form input{
+    cursor: pointer;
+    max-width: 400px;
+    position: relative;
+    border-radius: 3px;
+    padding: 8px 12px;
+    background: #ffffff;
+    color: #2e9fff;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    font-weight: 600;
+    margin: 0 !important;
+}
+
+/*copying the  same footer from welcome page*/
+/*styling for footer*/
+footer{
+    border-top: 1px #a9a9a9 ridge;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 20px;
+}
+footer ul a{
+    text-decoration: none;
+    color: #999999;
+}
+footer ul a:hover{
+    color: #333333;
+}
+/*closing of styling of footer*/
+</style>
+
+</head>
+
+
+<body>
+<header><h1> Company name</h1></header>
+<div class="container">
+    <form method="post" action="Registration">
+        <fieldset class="input-group">
+            <label>Name</label>
+            <input type="text" name="u1"/>
+        </fieldset>
+        <fieldset class="input-group">
+            <label>Email</label>
+            <input type="email" name="e1"/>
+        </fieldset>
+        <fieldset class="input-group">
+            <label>Password</label>
+            <input type="password" name="p1"/>
+        </fieldset></br>
+        <div class="submit-form">
+        <input type="submit" name="s1" value="Sign In"/>
+        </div>
+    </form>
+</div>
+<footer>
+    <ul>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">terms</a></li>
+        <li><a href="">advertising</a></li>
+        <li><a href="">about us</a></li>
+        <li><a href="">feedback</a></li>
+    </ul>
+</footer>
+</body>
+</html> 

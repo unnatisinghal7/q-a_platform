@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>welcome page</title>
+<link rel="stylesheet" type="text/css" href="welcomestyle.css"/>
+
+</head>
+<body>
+<header>
+    <div class="_title"><a href=""><h1>MyPage</h1></a></div>
+    <div class="searchbar">
+        <input type="text" name="search" placeholder="Search or ask a question or article"/><button class="searchbarbutton" type="submit"></button>
+    </div>
+    <nav>
+        <ul class="headeroptions">
+            <li><a href="">Home</a></li>
+            <li><a href="">Notifications</a></li>
+            <li class="profiledropdown"><a href="#"> Profile</a>
+                <ul>
+                    <li><a href="">View profile</a></li>
+                    <li><a href="">Account settings</a></li>
+                    <li><a href="">Log out</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    <div class="leftsec">
+        Welcome to my page and check out all the features of this site<br>
+        <div class="profilephoto">
+            <img src="" height="100px" width="75px" alt="no profile photo selected"><br>
+            <div class="photooptions">
+                <ul>
+                    <li>View photo</li>
+                    <li>Change photo</li>
+                    <li>Delete photo</li>
+                </ul>
+            </div></img>
+        </div><br>
+        <a href="">Name of the user</a>
+
+    </div>
+    <div class="middlesec">This is user's content and it will work only when user post something<br>
+        <div class="askquestion">
+            <textarea placeholder="Whats on your mind?" name="q1"></textarea><br/>
+            <input type="list" list="quesoptions" name="o1" placeholder="Enter related topic">
+                <datalist id="quesoptions">
+                    <option value="CSS"></option>
+                    <option value="HTML"></option>
+                    <option value="javascript"></option>
+                    <option value="JAVA"></option>
+                    <option value="jQuery"></option>
+                    <option value="SQL"></option>
+                    <option value="C++"></option>
+                    <option value="haskell"></option>
+                    <option value="bootstrap"></option>
+                    <option value="wordpress"></option>
+                    <option value="C"></option>
+                </datalist>
+            <input type="submit"/>
+        </div>
+        <div class="allquestions">
+            <div class="contentbox">
+                <div class="thequestion">
+                    <a href="">Here is the question to be asked</a>
+                </div>
+                <div class="relatedtopics">
+                    <ul>
+                        <li><a href="">topic1</a></li>
+                        <li><a href="">topic2</a></li>
+                    </ul>
+                </div>
+                <div class="started">
+                    <a href="" class="timetaken">this is the time</a>
+                    <a href="" class="userprofile">username</a>
+                </div>
+                <div class="peopleactivity">
+                    <a href="" ><div class="vav">votes </div><span>num</span></a>
+                    <a href="" ><div class="vav">answers </div><span>num</span></a>
+                    <a href="" ><div class="vav">views </div><span>num</span></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="rightsec">this is ad viewing area<br/>
+
+    </div>
+</div>
+<!--<iframe src="footer.html" height="75px" width="100%">-->
+
+<footer>
+    <ul>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">terms</a></li>
+        <li><a href="">advertising</a></li>
+        <li><a href="">about us</a></li>
+        <li><a href="">feedback</a></li>
+    </ul>
+</footer>
+</body>
+</html>
